@@ -1,2 +1,5 @@
-# built binary file 
+# rustc built file
 **/main
+
+# cargo built files
+**/target/**/*
