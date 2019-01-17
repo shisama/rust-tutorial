@@ -1,0 +1,23 @@
+[package]
+name = "flow_ctl"
+version = "0.1.0"
+authors = ["shisama <cherrydog07@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "while"
+path = "src/while.rs"
+
+[dependencies]
+
+[[bin]]
+name = "collection"
+path = "src/collection.rs"
+
+[[bin]]
+name = "range"
+path = "src/range.rs"
+
+[[bin]]
+name = "range2"
+path = "src/range2.rs"
