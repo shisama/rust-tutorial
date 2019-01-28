@@ -1,0 +1,27 @@
+[package]
+name = "ownership"
+version = "0.1.0"
+authors = ["shisama <cherrydog07@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name = "function"
+path = "src/function.rs"
+
+[[bin]]
+name = "scope"
+path = "src/scope.rs"
+
+[[bin]]
+name = "tuple"
+path = "src/tuple.rs"
+
+[[bin]]
+name = "reference"
+path = "src/reference.rs"
+
+[[bin]]
+name = "mutable"
+path = "src/mutable.rs"
