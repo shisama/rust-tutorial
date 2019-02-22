@@ -3,7 +3,9 @@ enum IpAddrKind {
     V6,
 }
 
+fn route(ip_type: IpAddrKind) { }
+
 fn main() {
-    let four = IpAddrKind::V4;
-    let six = IpAddrKind::V6;
+    route(IpAddrKind::V4);
+    route(IpAddrKind::V6);
 }
